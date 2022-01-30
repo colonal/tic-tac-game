@@ -50030,7 +50030,7 @@ fB(){var s,r=this
 A.e5("HomeCubit.get(context).autoPlay();")
 A.e5("player2: "+r.y1.length)
 if(r.go!=="")return
-if(r.x2.length===1)if(!B.b.l(r.y1,"5"))r.ek("5")
+if(r.x2.length===1)if(B.b.l(r.y1,"5"))r.ek("5")
 else{s=r.DK()
 if(s==="")return
 A.e5(s+" 1")
@@ -50129,15 +50129,15 @@ A.OJ.prototype={
 $2(a,b){},
 $S:102}
 A.OI.prototype={
-$2(a,b){var s,r,q,p,o=17976931348623157e292,n=null,m=this.a,l=m*0.2
-m*=0.3
-s=A.mF(A.a2G(A.ch(n,A.rK(A.Qu(n,n,n,n,m,new A.OC(a),n,n,B.pz),B.b6,n,new A.OD(a),new A.OE(a)),B.n,n,n,B.tc,n,l,n,n,n,n,o),"autoPlay"))
+$2(a,b){var s,r,q,p,o=17976931348623157e292,n=null,m=this.a,l=m*0.3
+m*=0.2
+s=A.mF(A.a2G(A.ch(n,n,B.n,n,n,B.tc,n,m,n,n,n,n,o),"autoPlay"))
 r=t.v
 q=t.p
-s=A.mF(A.iJ(A.a([s,A.ui("One Play",A.lq(n,n,A.aq(a,r).y?B.i:A.b3(B.d.aH(127.5),255,255,255),n,n,n,n,n,n,n,n,30,n,B.aC,n,n,!0,n,n,n,n,n,n,n,n),n,n)],q),B.aG))
+s=A.mF(A.rK(A.Qu(A.iJ(A.a([s,A.ui("One Play",A.lq(n,n,A.aq(a,r).y?B.i:A.b3(B.d.aH(127.5),255,255,255),n,n,n,n,n,n,n,n,30,n,B.aC,n,n,!0,n,n,n,n,n,n,n,n),n,n)],q),B.aG),n,n,n,l,new A.OC(a),n,n,B.pz),B.b6,n,new A.OD(a),new A.OE(a)))
 p=A.et(n,n,this.b*0.1)
-l=A.mF(A.a2G(A.ch(n,A.rK(A.Qu(n,n,n,n,m,new A.OF(a),n,n,B.pz),B.b6,n,new A.OG(a),new A.OH(a)),B.n,n,n,B.tb,n,l,n,n,n,n,o),"2Player"))
-return A.a7K(!0,A.iH(A.et(A.ch(n,A.l5(A.a([s,p,A.mF(A.iJ(A.a([l,A.ui("Towe Play",A.lq(n,n,A.aq(a,r).z?B.i:A.b3(B.d.aH(127.5),255,255,255),n,n,n,n,n,n,n,n,30,n,B.aC,n,n,!0,n,n,n,n,n,n,n,n),n,n)],q),B.aG))],q),B.ay,B.Bo,B.aH),B.jP,n,n,B.ta,n,300,n,B.x1,n,n,n),n,1/0),n,n),!0)},
+m=A.mF(A.a2G(A.ch(n,n,B.n,n,n,B.tb,n,m,n,n,n,n,o),"2Player"))
+return A.a7K(!0,A.iH(A.et(A.ch(n,A.l5(A.a([s,p,A.mF(A.rK(A.Qu(A.iJ(A.a([m,A.ui("Towe Play",A.lq(n,n,A.aq(a,r).z?B.i:A.b3(B.d.aH(127.5),255,255,255),n,n,n,n,n,n,n,n,30,n,B.aC,n,n,!0,n,n,n,n,n,n,n,n),n,n)],q),B.aG),n,n,n,l,new A.OF(a),n,n,B.pz),B.b6,n,new A.OG(a),new A.OH(a)))],q),B.ay,B.Bo,B.aH),B.jP,n,n,B.ta,n,300,n,B.x1,n,n,n),n,1/0),n,n),!0)},
 $S:299}
 A.OE.prototype={
 $1(a){A.aq(this.a,t.v).o_(1,!0)},
